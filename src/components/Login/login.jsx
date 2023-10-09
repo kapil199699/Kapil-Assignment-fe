@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./login.css";
-import { Link, Navigate } from "react-router-dom";
-import Footer from "../footer/footer";
+import { Navigate } from "react-router-dom";
 
 const Login = () => {
   const [userName, setUserName] = useState("");
@@ -31,7 +30,7 @@ const Login = () => {
   return (
     <div className="loginPage">
       <p className="loginWelcome">Login to Indiatimes</p>
-      <img src="https://www.indiatimes.com/images/login/login-art.png"></img>
+      <img src="https://www.indiatimes.com/images/login/login-art.png" alt=""></img>
       <div className="loginText">
         <p>Get the NEWS that fits your groove.</p>
         <p>Login with your phone number to get started!</p>

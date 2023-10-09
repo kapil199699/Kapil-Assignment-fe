@@ -7,10 +7,7 @@ import Register from "./components/Login/register";
 import BigStory from "./components/big-story/BigStory";
 import Heading from "./components/heading/heading";
 import LatestVideos from "./components/latest-videos/latestVideos";
-import Footer from "./components/footer/footer";
 import Quiz from "./components/quiz/quiz";
-import OnHoverComponent from "./components/onHoverComponent/onHoverComponent";
-import SideNavBar from "./components/Navbar/sideNavBar";
 
 function App() {
   return (
