@@ -1,0 +1,28 @@
+.heading {
+  width: 100%;
+  margin: 40px auto 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading-left {
+  width: 0.7%;
+  height: 35px;
+  background-color: yellow;
+}
+
+.heading-text {
+  font-size: x-large;
+  font-style: italic;
+  color: #3457a7;
+  font-family: Georgia;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.heading-right {
+  width: 81%;
+  height: 4px;
+  background-color: yellow;
+  margin-top: 16px;
+}

@@ -1,0 +1,26 @@
+.hover-component {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 100;
+  left: 0;
+  margin-top: 10px;
+}
+
+.sidebar {
+  width: 60%;
+  padding: 15px 30px;
+}
+
+.stroies {
+  width: 100%;
+}
+
+.sidebar-list li {
+  list-style: none;
+  cursor: pointer;
+  margin: 10px;
+}

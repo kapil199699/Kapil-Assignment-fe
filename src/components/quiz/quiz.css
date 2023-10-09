@@ -1,0 +1,84 @@
+.quiz {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quiz-left {
+  width: 63%;
+}
+
+.quiz-right {
+  width: 33%;
+}
+
+.quiz-right-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.quiz-img img {
+  display: block;
+  margin: 0px auto 20px auto;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.quiz-text h2 {
+  margin: 0px;
+  cursor: pointer;
+}
+
+.quiz-save {
+  text-align: right;
+}
+
+.quiz-save img {
+  width: 5%;
+  height: 5%;
+  cursor: pointer;
+}
+
+.qrImage {
+  width: 32%;
+}
+
+.qrtext {
+  width: 78%;
+}
+
+.qrtext h4 {
+  margin: 0px 0px 5px 0px;
+  font-size: small;
+}
+
+.qrtext p {
+  margin: 0px;
+  font-size: small;
+  font-weight: 500;
+}
+
+.qrImage img {
+  object-fit: cover;
+  width: 90px;
+  height: 110px;
+  border-radius: 5px;
+  display: block;
+  object-fit: cover;
+}
+
+.qrSave {
+  text-align: right;
+  /* margin-top: 20px; */
+}
+
+.qrSave img {
+  width: 10%;
+  height: 10%;
+}
+
+.quiz-right-line {
+  border: 1px solid gray;
+}

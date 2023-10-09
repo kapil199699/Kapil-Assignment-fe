@@ -1,0 +1,71 @@
+main {
+  background-image: url("https://im.indiatimes.in/content/2023/Feb/Header-Website_63dca5ded64d2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.header {
+  position: relative;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.nav-icon img {
+  width: 20%;
+  height: 20%;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.header-left {
+  width: 15%;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-around;
+  width: 18%;
+}
+
+.trends,
+.language,
+.login {
+  cursor: pointer;
+}
+
+.trends {
+  margin-right: 8px;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.header-bottom {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: large;
+  width: 60%;
+  margin: 0px auto;
+}
+
+.navigation {
+  cursor: pointer;
+}

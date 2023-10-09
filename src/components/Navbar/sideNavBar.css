@@ -1,0 +1,89 @@
+.sideNavBar {
+  width: 50%;
+  padding: 20px;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  max-height: 564px;
+  overflow: auto;
+  overflow-x: hidden;
+  margin-top: -55px;
+}
+
+.icon {
+  display: flex;
+}
+
+.cross {
+  width: 20%;
+  cursor: pointer;
+}
+
+.crossIcon {
+  background-color: #ffeb3b;
+  padding: 10px 13px;
+  border-radius: 50px;
+}
+
+.bottom-line {
+  border-bottom: 1px solid #d5d8da;
+  margin: 15px;
+  width: 100%;
+}
+
+.searchBar {
+  display: flex;
+  margin-top: 30px;
+}
+
+.searchIcon {
+  width: 4%;
+}
+
+.searchInput {
+  width: 90%;
+  border-bottom: 1px solid #d5d8da;
+}
+
+.searchInput input {
+  border: none;
+  border-radius: 0;
+  margin: 0px;
+}
+
+.sideNave {
+  display: flex;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.sideNaveIcon {
+  width: 7%;
+}
+
+.sideNaveIcon {
+  color: #3457a7;
+}
+
+.sideNaveItem h3 {
+  margin: 0px;
+  color: #3457a7;
+  font-weight: bolder;
+}
+
+.sideNavFb,
+.sideNavTwitter,
+.sideNavInstagram,
+.sideNavYoutube {
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+  cursor: pointer;
+  color: #3457a7;
+}
+
+.sideNavInstagram,
+.sideNavYoutube {
+  background-color: black;
+}
