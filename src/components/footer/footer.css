@@ -65,9 +65,7 @@
   cursor: pointer;
 }
 
-.fb {
-  background-color: white;
-}
+
 
 .spanText {
   font-size: smaller;
@@ -80,4 +78,8 @@
   padding: 10px;
   text-align: center;
   font-size: small;
+}
+
+#my-svg path {
+  fill: white;
 }

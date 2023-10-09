@@ -35,6 +35,7 @@ const NavbarTop = () => {
           <div className="logo">
             <Link to="/">
               <svg
+              id="my-svg"
                 width="50"
                 height="48"
                 viewBox="0 0 50 48"

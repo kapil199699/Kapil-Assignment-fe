@@ -51,9 +51,11 @@ main {
 .login a {
   text-decoration: none;
   color: white;
-  background-color: black;
+  background-color: white;
+  color: black;
+  font-weight: 600;
   padding: 2px 5px;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 .header-bottom {
@@ -68,4 +70,26 @@ main {
 
 .navigation {
   cursor: pointer;
+  position: relative;
+
+}
+
+.navigation::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px; 
+  background-color: #fce44d;; 
+  transition: width 0.5s ease; 
+}
+
+.navigation:hover::before {
+  width: 100%;
+}
+
+
+#my-svg path {
+  fill: white;
 }
